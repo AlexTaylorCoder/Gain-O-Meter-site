@@ -1,0 +1,47 @@
+@use 'var' as *;
+
+body {
+    background-color: $primary-color;
+    color: $text-color;
+}
+a {
+    text-decoration: none;
+    color:inherit;
+}
+.top {
+    @include center-comp;
+    font-size: 40px;
+    font-family: 'Prompt', sans-serif;
+    i:hover {
+        color: white;
+    }
+    h2 {
+        font-size: 32px;
+        #your {
+            color:$highlight-color;
+            font-weight: 200;
+            &:hover {
+                color: white;
+            }
+        }
+    }
+    .register {
+        cursor: pointer;
+        margin-top: 20px;
+        width: 10%;
+        height: 40px;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        border-color: $secondary-color;
+        color: $secondary-color;
+        &:hover {
+            background-color: $tertiary-color;
+            color: $secondary-color;
+        }
+    }   
+}
+
+#sum {
+    @include center-comp;
+    margin:40px 30% 0 30%;
+}

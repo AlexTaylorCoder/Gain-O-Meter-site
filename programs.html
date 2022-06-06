@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programs</title>
+    <link rel="stylesheet"type="text/css"href="CSS/programs.css">
+    <script src="https://kit.fontawesome.com/fa00d9c370.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="bar">
+        <ul>
+            <li><a href="index.html"></a>Home</li>
+            <li>Creator</li>
+            <li><a href ="/max.html">Max Calculator</a></li>
+            <li><a href ="/mission.html">Our mission</a></li>
+            <li><a href="/programs.html">Programs</a></li>
+            <li>Nutrition</li>
+        </ul>
+    </nav>
+    <header id="summary">
+        <p>This page will generate a custom program for you based on a variety of variables.</p>
+        <p>Including weight, body fat percentage, current progression and your overall goals.   </p>
+    </header>
+    <form id="program">
+        <fieldset>
+            <h2 id="goal">Goal and Gender</h2>
+            <label class="dropdownLabel type">What is your goal?
+                <select id = "dropdown">
+                    <option>CLICK</option>
+                    <option>Powerlifting</option>
+                    <option>Bodybuilding</option>
+                    <option>Sports/Health</option>
+                </select>
+            </label>
+            <label class ="dropdownLabel sex">Sex
+                <select id = "dropdownSex">
+                    <option value=0>Male</option>
+                    <option value=1>Female</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <h2> Body Type</h2>
+            <label>Height: <input id="height" required placeholder="(in inches)"type="number"></label>
+            <label>Weight: <input  id="weight" required placeholder="(in lbs)"type="number"></label>
+            <label>FFMI: <input id="ffmi"required placeholder="Estimated body fat percentage (Don't enter as decimal)"type="number"></label>
+        </fieldset>
+        <fieldset>
+            <h2>Maxes</h2>
+            <p>Fill out as many of the fields as known, the more filled the more accurate the program.</p>
+            <label>Squat Max: <input id ="squat"required placeholder="(in lbs)"type="number"></label>
+            <label>Deadlift Max: <input id="deadlift" required placeholder="(in lbs)"type="number"></label>
+            <label>Bench Max: <input id="bench"required placeholder="(in lbs)"type="number"></label>
+        </fieldset>
+        <fieldset id="startMax">
+            <h2>Starting maxes</h2>
+            <p>Enter your maxes when you first began lifting</p>
+            <label>First Squat Max: <input id ="squat"required placeholder="(in lbs)"type="number"></label>
+            <label>First Deadlift Max: <input id="deadlift" required placeholder="(in lbs)"type="number"></label>
+            <label>First Bench Max: <input id="bench"required placeholder="(in lbs)"type="number"></label>
+        </fieldset>
+        <fieldset>
+            <h2>Nutrition</h2>
+        </fieldset>
+        <input id="formSub"type="submit"text="Submit">
+    </form>
+    <script type="module" src="Javascript/programs.js"></script>
+</body>
+</html>

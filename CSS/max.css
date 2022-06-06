@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: inherit;
+}
+
+.bar {
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0 3px 3px 1px #426471;
+  margin-bottom: 80px;
+}
+.bar ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: row;
+  height: 40px;
+  gap: 10em;
+  list-style: none;
+  background-color: #2c2f33;
+  color: #99aab5;
+}
+.bar ul li {
+  border-left: 2px solid #5b6dae;
+}
+.bar ul li:hover {
+  cursor: pointer;
+  border-left: 2px solid #99aab5;
+  color: #7289da;
+  border-bottom: 2px solid #99aab5;
+}
+
+body {
+  background-color: #7289da;
+  color: #23272a;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+header h1 {
+  margin-bottom: 20px;
+}
+header h1 #your {
+  color: #99aab5;
+}
+
+#calc {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+#calc input {
+  height: 35px;
+  border-radius: 2px;
+  padding: 2px;
+  line-height: 12px;
+}
+#calc .rep {
+  width: 40px;
+}
+
+#max h1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  color: #23272a;
+  font-size: 42px;
+}
+
+#excerLayout {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  height: 60vh;
+  width: 50vw;
+  opacity: 0;
+  background-color: #2c2f33;
+  border-radius: 10px;
+}
+#excerLayout .row {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #7289da;
+  border-radius: 4px;
+  height: 25%;
+  width: 95%;
+  color: #99aab5;
+  font-size: 32px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: #23272a;
+  cursor: pointer;
+}
+#excerLayout .row:hover {
+  color: whitesmoke;
+}
+
+/*# sourceMappingURL=max.css.map */

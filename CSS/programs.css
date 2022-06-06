@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: inherit;
+}
+
+.bar {
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0 3px 3px 1px #426471;
+  margin-bottom: 80px;
+}
+.bar ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: row;
+  height: 40px;
+  gap: 10em;
+  list-style: none;
+  background-color: #2c2f33;
+  color: #99aab5;
+}
+.bar ul li {
+  border-left: 2px solid #5b6dae;
+}
+.bar ul li:hover {
+  cursor: pointer;
+  border-left: 2px solid #99aab5;
+  color: #7289da;
+  border-bottom: 2px solid #99aab5;
+}
+
+body {
+  background-color: #5b6dae;
+}
+
+#summary {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 32px;
+  color: #23272a;
+}
+
+form {
+  opacity: 0.8;
+  width: 50%;
+  margin: 40px auto;
+  background-color: #7289da;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px #426471, -2px -2px 2px 1px #426471;
+  padding: 10px;
+}
+
+fieldset {
+  padding: 20px;
+  border: none;
+}
+
+#goal {
+  margin-bottom: 10px;
+  color: #23272a;
+}
+
+label {
+  display: block;
+  font-size: 22px;
+  margin: 20px 0px 20px 5px;
+}
+
+input[type=number] {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  color: #23272a;
+  margin-top: 10px;
+  text-indent: 1em;
+  font-size: large;
+  box-shadow: 2px 2px 4px 2px #5b6dae, -2px -2px 4px 2px #5b6dae;
+}
+
+#formSub {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  height: 40px;
+  border-radius: 10px;
+  background: #7B63AD;
+  color: rgb(245, 245, 245);
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 1px 1px 2px 1px seashell, -1px -1px 2px 1px seashell;
+}
+#formSub:hover {
+  cursor: pointer;
+  background: #FAF169;
+  color: rgba(31, 50, 72, 0.776);
+}
+
+.dropdownLabel {
+  display: inline-block;
+  flex-direction: row;
+  margin: 5% 0% 0% 8%;
+}
+
+select {
+  height: 32px;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=programs.css.map */

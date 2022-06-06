@@ -1,0 +1,10 @@
+@use 'var' as *;
+
+body {
+    background-color: $secondary-color;
+}
+p {
+    @include center-comp;
+    color: $text-color;
+    font-size: 26px;
+}

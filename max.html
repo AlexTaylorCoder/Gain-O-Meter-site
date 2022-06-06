@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max</title>
+    <link rel="stylesheet"type="text/css"href="CSS/max.css">
+    <script src="https://kit.fontawesome.com/fa00d9c370.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="bar">
+        <ul>
+            <li><a href="index.html"></a>Home</li>
+            <li>Creator</li>
+            <li><a href ="/max.html">Max Calculator</a></li>
+            <li><a href ="/mission.html">Our mission</a></li>
+            <li><a href="/programs.html">Programs</a></li>
+            <li>Nutrition</li>
+        </ul>
+    </nav>
+    <header>
+        <h1>
+            Find<span id="your"> your</span> one rep max <i class="fa-solid fa-calculator"></i>
+        </h1>
+    </header>
+    <form id="calc">
+        <input class = "rep" min=1 required type="number" placeholder="Reps">
+        <input class = "weight" min=0 required type="number" placeholder="Weight Lifted">
+        <fieldset id="excer">
+            <input id="chooseexcer" type="text" required placeholder="Excersize">
+            <select id = "dropdown">
+                <option value="bench">Bench Press</option>
+                <option value="squat">Squat</option>
+                <option value="deadlift">Deadlift</option>
+            </select>
+        </fieldset>
+        <input type="submit"text="Max">
+    </form>
+    <section id="excerLayout">
+
+
+    </section>
+    <section id="max">
+        <h1></h1>
+    </section>
+    <script src="Javascript/max.js"></script>
+</body>
+</html>

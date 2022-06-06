@@ -1,0 +1,55 @@
+{
+    "Bench Press": {
+        "maxDivisor":40,
+        "expectedPercentageMax":0.24,
+        "bodyPart": {"calf":0,"quad":0.05,"hamstring":0,"glute":0,"lowBack":0,"lat":1,"trap":0,
+            "frontDelt":6,"MidDelt":3,"backDelt":1,"lowerChest":9,"upperChest":6,"neck":0,
+            "longTricep":4,"lateralTricep":7,"medialTricep":4,"bicep":0,"brachialis":0,"forearm":1}
+    },   
+    "Squat":
+    {
+        "maxDivisor":30,
+        "expectedPercentageMax":0.35,
+        "bodyPart": {"calf":2,"quad":9,"hamstring":4,"glute":6,"lowBack":6,"lat":0,"trap":2,
+            "frontDelt":0,"MidDelt":0,"backDelt":0,"lowerChest":0,"upperChest":0,"neck":1,
+            "longTricep":0,"lateralTricep":0,"medialTricep":0,"bicep":0,"brachialis":0,"forearm":0}
+    },
+    "Deadlift":
+    {
+        "maxDivisor":30,
+        "expectedPercentageMax":0.41,
+        "bodyPart": {"calf":0,"quad":5,"hamstring":9,"glute":7,"lowBack":9,"lat":5,"trap":3,
+            "frontDelt":0,"MidDelt":0,"backDelt":1,"lowerChest":0,"upperChest":6,"neck":0,
+            "longTricep":0,"lateralTricep":0,"medialTricep":0,"bicep":0,"brachialis":0,"forearm":7}
+    },
+    "Shoulder Press":
+    {
+        "maxDivisor":40,
+        "expectedPercentageMax":0.15
+    },
+    "Bicep Curls":
+    {
+        "maxDivisor":50,
+        "expectedPercentageMax":0.042
+    },
+    "Romanian Deadlift":
+    {
+        "maxDivisor":30,
+        "expectedPercentageMax":0.33
+    },
+    "Tricep Pushdown":
+    {
+        "maxDivisor":30,
+        "expectedPercentageMax":0.14
+    },
+    "Close Grip Bench Press":
+    {
+        "maxDivisor":30,
+        "expectedPercentageMax":0.2
+    },
+    "Hex Bar Deadlift":
+    {
+        "maxDivisor":30,
+        "expectedPercentageMax":0.47
+    }
+}
